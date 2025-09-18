@@ -29,27 +29,7 @@ chatbot/
 │── utils/ # Helper functions (prompt templates, RAG pipeline)
 │── README.md
 
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/yourusername/personalized-chatbot.git
-   cd personalized-chatbot
-Install dependencies
 
-bash
-Copy code
-pip install -r requirements.txt
-Start the backend
-
-bash
-Copy code
-uvicorn backend.main:app --reload
-Start the frontend (React/Next.js)
-
-bash
-Copy code
-npm install
-npm run dev
-Access the chatbot at http://localhost:3000
 
 🔮 Future Enhancements
 Multi-turn conversations with long-term memory
